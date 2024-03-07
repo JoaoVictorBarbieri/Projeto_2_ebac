@@ -32,6 +32,7 @@ header h1 {
     margin-left: 22%;
     margin-top: 7%;
     border: solid 2px black;
+    border-radius: 30px;
 }
 .corpo{
     display: flex;
