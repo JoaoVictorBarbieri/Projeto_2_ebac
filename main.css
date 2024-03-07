@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lobster';
+    color: #27403C;
+}
+body{
+    display: block;
+    background-color: #fff;
+    padding-top: 100px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+header img{
+    height: 36px;
+    margin-left: 8px;
+}
+header h1 {
+    font-size: 60px;
+}
+/*----------------------------------------------------*/
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin-left: 22%;
+    margin-top: 7%;
+    border: solid 2px black;
+}
+.corpo{
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px auto;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+form button{
+    background-color: #35373A;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 6px;
+}
+form button:hover{
+    background-color: black;
+}
+form input{
+    font-size: 16px;
+    background-color: #fff;
+    padding: 2px;
+    margin-bottom: 2px;
+    margin: 8px;
+    border-radius: 6px;
+}
+form h2 {
+    margin: 8px;
+    font-size: 32px;
+}
+
+/*------------------------------------------------------------------*/
+table{
+    width: 100%;
+}
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+}
+table td {
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+}
+
+tfoot td{
+    border-top: 2px solid rgba(0, 0, 0, 0.39);
+    text-align: center;
+}
+.tabela {
+    width: 70%;
+}

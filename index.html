@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Contatos</h1>
+            <img src="./Imagens/Whats_logo.jpg" alt="whatsapp logo">
+        </header>
+        <div class="corpo">
+            <div class="formulario">
+            <form>
+                    <h2>Registre-se:</h2>
+                    <input id="contato_telefone" type="text" placeholder="Digite o seu nome:" required>
+                    <input id="numero_telefone" type="tel" placeholder="Seu número de telefone:" required>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                </form>
+            </div>
+        <div class="tabela">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome:</th>
+                        <th>Telefone:</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <td>Contatos cadastrados</td>
+                        <td>0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        </div>
+    <script src="./main.js"></script>
+</body>
+</html>
