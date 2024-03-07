@@ -85,11 +85,11 @@ table td {
     padding: 16px;
     text-align: center;
     font-size: 18px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
 }
 
 tfoot td{
-    border-top: 2px solid rgba(0, 0, 0, 0.39);
+    border-top: 1px solid rgba(0, 0, 0, 0.39);
     text-align: center;
 }
 .tabela {
