@@ -30,9 +30,11 @@ header h1 {
 .container{
     max-width: 900px;
     width: 100%;
+    height: fit-content;
+    padding-bottom: 15px;
     margin-left: 22%;
     margin-top: 7%;
-    border: solid 2px black;
+    border: solid 10px black;
     border-radius: 30px;
 }
 .corpo{
@@ -76,20 +78,20 @@ form h2 {
 table{
     width: 100%;
 }
+
 table th{
     padding: 16px;
     text-align: center;
     font-size: 24px;
 }
 table td {
-    padding: 16px;
+    padding-bottom: 8px;
     text-align: center;
     font-size: 18px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.39);
 }
 
 tfoot td{
-    border-top: 1px solid rgba(0, 0, 0, 0.39);
     text-align: center;
 }
 .tabela {
